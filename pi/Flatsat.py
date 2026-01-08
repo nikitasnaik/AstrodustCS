@@ -69,8 +69,27 @@ def take_photo():
     This function is NOT complete. Takes a photo when the FlatSat is shaken.
     Replace psuedocode with your own code.
     """
+    print("Shake to take a picture!")
     while True:
         accelx, accely, accelz = accel_gyro.acceleration
+        
+        total_accel = math.sqrt(accelx**2 + accely**2 + accelz**2)
+
+        if total_accel > THRESHOLD:
+            print ("Shake detected! Smile for the picture!")
+            time.sleep(1)
+            name = "TeamAstrodust"
+            img_path = img_gen(name)
+
+
+            picam2.capture_file(img_path)
+            print(f"Photo saved: {img_path}")
+
+            time.sleep(3)
+
+        time.sleep(0.1)
+
+
 
         #CHECKS IF READINGS ARE ABOVE THRESHOLD
             #PAUSE
@@ -79,6 +98,8 @@ def take_photo():
             #PUSH PHOTO TO GITHUB
         
         #PAUSE
+
+    
 
 
 def main():
