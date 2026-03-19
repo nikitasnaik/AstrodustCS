@@ -6,7 +6,7 @@ import numpy as np
 TOTAL_IMAGES = 16
 GROUP_SIZE = 4
 SHORT_INTERVAL = 5
-LONG_INTERVAL = 30
+LONG_INTERVAL = 20
 CRATER_NAMES = ["Crater1", "Crater2", "Crater3", "Crater4"]
 
 # Store bright rim brightness values per crater
@@ -45,8 +45,7 @@ def main():
         avg = np.mean(values)
         consistency = np.std(values)
         print(f"{crater}: Average Bright Rim = {avg:.2f}, Consistency = {consistency:.2f}")
-        # Higher average and lower std = better
-        score = avg / (1 + consistency)
+        score = avg / (1 + consistency)  # Higher average + lower std = better
         if score > best_score:
             best_score = score
             best_crater = crater
