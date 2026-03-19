@@ -1,18 +1,30 @@
 import time
-from picamera2 import Picamera2
-from utils import img_gen
+from camera_module import take_photo
+from image_processing import process_image
 
-picam2 = Picamera2()
-picam2.start()
+TOTAL_IMAGES = 16
+GROUP_SIZE = 4
 
-def take_photo():
-    time.sleep(1)  # small buffer
+SHORT_INTERVAL = 5   # between images
+LONG_INTERVAL = 30   # between groups
 
-    name = "TeamAstrodust"
-    img_path = img_gen(name)
+def main():
+    print("Starting CubeSat capture mission...\n")
 
-    picam2.capture_file(img_path)
+    for i in range(TOTAL_IMAGES):
+        print(f"Taking image {i+1}/{TOTAL_IMAGES}")
 
-    print(f"Photo saved: {img_path}")
+        img_path = take_photo()
+        process_image(img_path)
 
-    return img_path
+        # Decide timing
+        if (i + 1) % GROUP_SIZE == 0 and i != TOTAL_IMAGES - 1:
+            print("Switching crater... waiting 30 seconds\n")
+            time.sleep(LONG_INTERVAL)
+        else:
+            time.sleep(SHORT_INTERVAL)
+
+    print("Mission complete.")
+
+if __name__ == "__main__":
+    main()
