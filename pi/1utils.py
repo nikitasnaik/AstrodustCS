@@ -1,13 +1,16 @@
 import os
 from datetime import datetime
 
-# Folder you can access easily
-SAVE_DIR = "/home/pi/MissionImages"
+BASE_DIR = "/home/pi/MissionImages"
 
-# Create folder if it doesn't exist
-os.makedirs(SAVE_DIR, exist_ok=True)
+# Ensure base directory exists
+os.makedirs(BASE_DIR, exist_ok=True)
 
-def img_gen(name):
+def img_gen(name, crater_id="Crater1"):
+    # Create folder for this crater
+    folder_path = os.path.join(BASE_DIR, crater_id)
+    os.makedirs(folder_path, exist_ok=True)
+    
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     filename = f"{name}_{timestamp}.jpg"
-    return os.path.join(SAVE_DIR, filename)
+    return os.path.join(folder_path, filename)
