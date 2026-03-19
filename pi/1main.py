@@ -5,8 +5,8 @@ import numpy as np
 
 TOTAL_IMAGES = 16
 GROUP_SIZE = 4
-SHORT_INTERVAL = 3
-LONG_INTERVAL = 15
+SHORT_INTERVAL = 5
+LONG_INTERVAL = 30
 CRATER_NAMES = ["Crater1", "Crater2", "Crater3", "Crater4"]
 
 # Store bright rim brightness values per crater
@@ -28,13 +28,8 @@ def main():
 
         print("Cycle complete\n")
 
-        # After completing GROUP_SIZE images, calculate consistency for that crater
+        # Switch crater after 4 images
         if (i+1) % GROUP_SIZE == 0:
-            # Compute final consistency across the 4 images of this crater
-            values = crater_data[crater_id]
-            consistency = np.std(values)
-            print(f"Crater {crater_id} final consistency for these {GROUP_SIZE} images: {consistency:.2f}")
-
             crater_index += 1
             if crater_index < len(CRATER_NAMES):
                 print(f"Switching to next crater... waiting {LONG_INTERVAL} seconds\n")
@@ -50,7 +45,8 @@ def main():
         avg = np.mean(values)
         consistency = np.std(values)
         print(f"{crater}: Average Bright Rim = {avg:.2f}, Consistency = {consistency:.2f}")
-        score = avg / (1 + consistency)  # Higher average + lower std = better
+        # Higher average and lower std = better
+        score = avg / (1 + consistency)
         if score > best_score:
             best_score = score
             best_crater = crater
