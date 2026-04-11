@@ -3,9 +3,9 @@ import os
 import numpy as np
 from datetime import datetime
 
-from camera_module import take_photo
-from image_processing import process_image
-from git_upload import git_push
+from NEWcamera_module import take_photo
+from NEWimage_processing import process_image
+from NEWgit_upload import git_push
 
 TOTAL_IMAGES = 16
 GROUP_SIZE = 4
