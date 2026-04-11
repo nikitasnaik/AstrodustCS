@@ -1,9 +1,9 @@
 import os
 
 def git_push(crater_id):
-    os.system("git add images logs")
+    os.system(f"git add {crater_id}")
 
-    commit_message = f"Add images for {crater_id} (4-image batch)"
+    commit_message = f"Add images for {crater_id} (4 images)"
     os.system(f'git commit -m "{commit_message}" || echo "No changes to commit"')
 
     os.system("git push")

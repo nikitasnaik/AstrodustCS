@@ -21,7 +21,7 @@ def take_photo(crater_id):
 
     # --- Create folder structure inside repo ---
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    image_dir = os.path.join(base_dir, "images", crater_id)
+    image_dir = os.path.join(base_dir, crater_id)
     os.makedirs(image_dir, exist_ok=True)
 
     # --- Create filename with timestamp ---
