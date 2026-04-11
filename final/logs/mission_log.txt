@@ -119,3 +119,18 @@
 [23:30:12] PROCESS — Crater3 Image 4 Brightness: 70.51
 [23:30:12] SUMMARY — Crater3 Avg: 134.76 | Consistency: 66.79
 [23:30:12] DOWNLINK — Pushing Crater3 batch to GitHub
+[23:30:14] WAIT — Switching crater, sleeping 20s
+[23:30:34] CAPTURE — Taking Crater4 Image 1
+[23:30:35] CAPTURE — Saved /home/pi/MissionImages/Crater4/TeamAstrodust_20260410_233035.jpg
+[23:30:35] PROCESS — Crater4 Image 1 Brightness: 168.42
+[23:30:40] CAPTURE — Taking Crater4 Image 2
+[23:30:41] CAPTURE — Saved /home/pi/MissionImages/Crater4/TeamAstrodust_20260410_233041.jpg
+[23:30:41] PROCESS — Crater4 Image 2 Brightness: 198.91
+[23:30:46] CAPTURE — Taking Crater4 Image 3
+[23:30:47] CAPTURE — Saved /home/pi/MissionImages/Crater4/TeamAstrodust_20260410_233047.jpg
+[23:30:47] PROCESS — Crater4 Image 3 Brightness: 184.21
+[23:30:52] CAPTURE — Taking Crater4 Image 4
+[23:30:53] CAPTURE — Saved /home/pi/MissionImages/Crater4/TeamAstrodust_20260410_233053.jpg
+[23:30:53] PROCESS — Crater4 Image 4 Brightness: 134.05
+[23:30:53] SUMMARY — Crater4 Avg: 171.40 | Consistency: 24.10
+[23:30:53] DOWNLINK — Pushing Crater4 batch to GitHub

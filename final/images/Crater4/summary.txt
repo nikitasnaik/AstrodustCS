@@ -1,0 +1,11 @@
+Crater: Crater4
+Number of Images: 4
+
+Individual Brightness Values:
+Image 1: 168.42
+Image 2: 198.91
+Image 3: 184.21
+Image 4: 134.05
+
+Average Brightness: 171.40
+Consistency (Std Dev): 24.10
