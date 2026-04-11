@@ -3,7 +3,7 @@ import os
 import numpy as np
 from datetime import datetime
 
-from NEWcamera_module import take_photo
+from NEWcamera_mod import take_photo
 from NEWimage_processing import process_image
 from NEWgit_upload import git_push
 
