@@ -42,3 +42,19 @@
 [22:11:51] PROCESS — Crater1 Image 4 Brightness: 150.24
 [22:11:51] SUMMARY — Crater1 Avg: 91.50 | Consistency: 56.48
 [22:11:51] DOWNLINK — Pushing Crater1 batch to GitHub
+[22:11:53] WAIT — Switching crater, sleeping 20s
+[23:24:16] MISSION START — Team Astrodust CubeSat
+[23:24:16] CAPTURE — Taking Crater1 Image 1
+[23:24:17] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_232417.jpg
+[23:24:17] PROCESS — Crater1 Image 1 Brightness: 164.73
+[23:24:22] CAPTURE — Taking Crater1 Image 2
+[23:24:23] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_232423.jpg
+[23:24:23] PROCESS — Crater1 Image 2 Brightness: 111.32
+[23:24:28] CAPTURE — Taking Crater1 Image 3
+[23:24:29] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_232429.jpg
+[23:24:29] PROCESS — Crater1 Image 3 Brightness: 192.06
+[23:24:34] CAPTURE — Taking Crater1 Image 4
+[23:24:35] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_232435.jpg
+[23:24:35] PROCESS — Crater1 Image 4 Brightness: 137.06
+[23:24:35] SUMMARY — Crater1 Avg: 151.29 | Consistency: 30.18
+[23:24:35] DOWNLINK — Pushing Crater1 batch to GitHub

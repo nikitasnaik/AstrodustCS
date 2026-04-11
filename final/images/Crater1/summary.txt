@@ -2,10 +2,10 @@ Crater: Crater1
 Number of Images: 4
 
 Individual Brightness Values:
-Image 1: 0.00
-Image 2: 122.00
-Image 3: 93.76
-Image 4: 150.24
+Image 1: 164.73
+Image 2: 111.32
+Image 3: 192.06
+Image 4: 137.06
 
-Average Brightness: 91.50
-Consistency (Std Dev): 56.48
+Average Brightness: 151.29
+Consistency (Std Dev): 30.18
