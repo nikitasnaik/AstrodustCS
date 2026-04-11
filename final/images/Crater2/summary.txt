@@ -2,10 +2,10 @@ Crater: Crater2
 Number of Images: 4
 
 Individual Brightness Values:
-Image 1: 194.40
-Image 2: 195.20
-Image 3: 197.65
-Image 4: 204.01
+Image 1: 194.33
+Image 2: 180.83
+Image 3: 188.28
+Image 4: 188.16
 
-Average Brightness: 197.82
-Consistency (Std Dev): 3.77
+Average Brightness: 187.90
+Consistency (Std Dev): 4.78
