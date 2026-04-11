@@ -11,3 +11,34 @@
 [22:00:42] CAPTURE — Taking Crater1 Image 4
 [22:00:43] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_220043.jpg
 [22:00:43] PROCESS — Crater1 Image 4 Brightness: 124.98
+[22:02:24] MISSION START — Team Astrodust CubeSat
+[22:02:24] CAPTURE — Taking Crater1 Image 1
+[22:02:25] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_220225.jpg
+[22:02:25] PROCESS — Crater1 Image 1 Brightness: 0.00
+[22:02:30] CAPTURE — Taking Crater1 Image 2
+[22:02:31] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_220231.jpg
+[22:02:31] PROCESS — Crater1 Image 2 Brightness: 78.27
+[22:02:36] CAPTURE — Taking Crater1 Image 3
+[22:02:37] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_220237.jpg
+[22:02:37] PROCESS — Crater1 Image 3 Brightness: 87.95
+[22:02:42] CAPTURE — Taking Crater1 Image 4
+[22:02:43] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_220243.jpg
+[22:02:43] PROCESS — Crater1 Image 4 Brightness: 102.10
+[22:02:43] SUMMARY — Crater1 Avg: 67.08 | Consistency: 39.64
+[22:02:43] DOWNLINK — Pushing Crater1 batch to GitHub
+[22:02:44] WAIT — Switching crater, sleeping 20s
+[22:11:32] MISSION START — Team Astrodust CubeSat
+[22:11:32] CAPTURE — Taking Crater1 Image 1
+[22:11:33] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_221133.jpg
+[22:11:33] PROCESS — Crater1 Image 1 Brightness: 0.00
+[22:11:38] CAPTURE — Taking Crater1 Image 2
+[22:11:39] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_221139.jpg
+[22:11:39] PROCESS — Crater1 Image 2 Brightness: 122.00
+[22:11:44] CAPTURE — Taking Crater1 Image 3
+[22:11:45] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_221145.jpg
+[22:11:45] PROCESS — Crater1 Image 3 Brightness: 93.76
+[22:11:50] CAPTURE — Taking Crater1 Image 4
+[22:11:51] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_221151.jpg
+[22:11:51] PROCESS — Crater1 Image 4 Brightness: 150.24
+[22:11:51] SUMMARY — Crater1 Avg: 91.50 | Consistency: 56.48
+[22:11:51] DOWNLINK — Pushing Crater1 batch to GitHub
