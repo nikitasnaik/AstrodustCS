@@ -1,6 +1,6 @@
 import time
 from picamera2 import Picamera2
-from utils import img_gen  # keep your existing utils for naming
+from NEWutils import img_gen  # keep your existing utils for naming
 
 # Initialize camera
 picam2 = Picamera2()
