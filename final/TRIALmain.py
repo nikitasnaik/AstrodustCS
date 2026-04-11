@@ -17,7 +17,7 @@ CRATER_NAMES = ["Crater1", "Crater2", "Crater3", "Crater4"]
 crater_data = {crater: [] for crater in CRATER_NAMES}
 
 # Mission log file
-LOG_FILE = "/home/pi/AstrodustCS/final/logs"
+LOG_FILE = "/home/pi/AstrodustCS/final/logs/mission_log.txt"
 
 
 def log_event(message):
