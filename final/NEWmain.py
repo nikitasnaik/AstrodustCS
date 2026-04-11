@@ -9,7 +9,7 @@ from NEWgit_upload import git_push
 TOTAL_IMAGES = 16
 GROUP_SIZE = 4
 SHORT_INTERVAL = 5
-LONG_INTERVAL = 20
+LONG_INTERVAL = 30
 CRATER_NAMES = ["Crater1", "Crater2", "Crater3", "Crater4"]
 
 # Store bright rim brightness values per crater
