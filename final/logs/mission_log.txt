@@ -1,0 +1,13 @@
+[22:00:24] MISSION START — Team Astrodust CubeSat
+[22:00:24] CAPTURE — Taking Crater1 Image 1
+[22:00:25] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_220025.jpg
+[22:00:25] PROCESS — Crater1 Image 1 Brightness: 0.00
+[22:00:30] CAPTURE — Taking Crater1 Image 2
+[22:00:31] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_220031.jpg
+[22:00:31] PROCESS — Crater1 Image 2 Brightness: 0.00
+[22:00:36] CAPTURE — Taking Crater1 Image 3
+[22:00:37] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_220037.jpg
+[22:00:37] PROCESS — Crater1 Image 3 Brightness: 156.26
+[22:00:42] CAPTURE — Taking Crater1 Image 4
+[22:00:43] CAPTURE — Saved /home/pi/MissionImages/Crater1/TeamAstrodust_20260410_220043.jpg
+[22:00:43] PROCESS — Crater1 Image 4 Brightness: 124.98
