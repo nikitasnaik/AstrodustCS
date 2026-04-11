@@ -17,7 +17,7 @@ CRATER_NAMES = ["Crater1", "Crater2", "Crater3", "Crater4"]
 crater_data = {crater: [] for crater in CRATER_NAMES}
 
 # Mission log file
-LOG_FILE = "/home/pi/MissionImages/mission_log.txt"
+LOG_FILE = "/home/pi/AstrodustCS/final/logs"
 
 
 def log_event(message):
@@ -28,7 +28,7 @@ def log_event(message):
 
 
 def save_crater_summary(crater_id, values):
-    folder_path = os.path.join("/home/pi/MissionImages", crater_id)
+    folder_path = os.path.join("/home/pi/AstrodustCS/final/images", crater_id)
     summary_path = os.path.join(folder_path, "summary.txt")
 
     avg = np.mean(values)
